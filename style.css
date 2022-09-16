@@ -1,0 +1,50 @@
+body{ color: aliceblue;
+    background-image: url(back.jpg);
+    margin: 0px;
+    padding: 0px;
+background-size: 100%;
+height: 700px;
+
+}
+.LEFT{
+    
+    display: inline-block;
+    position: absolute;
+    left: 50px;
+    height: 90px;
+    width: 80px;
+}
+.MID{
+    
+    border: solid whitesmoke;
+    display:block;
+    margin: 22px auto;
+    width:900px;
+    height: 50px;
+   border-radius: 12px;
+}
+.RIGHT{
+
+    position: absolute;
+   right: 120px;
+   top: 52px;
+   position:fixed;
+   
+
+
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    margin: 72px;
+    color: whitesmoke;
+   text-decoration: none;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+}
+.navbar li :hover,.navbar li a.active{
+    text-decoration: underline;
+    color:grey
+
+} 
